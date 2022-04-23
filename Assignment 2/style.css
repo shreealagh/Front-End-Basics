@@ -1,0 +1,54 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+section{
+    width: 40vw;
+    margin: 50px auto;
+    background-color: black;
+    border: 15px solid black;
+    border-radius: 30px;
+}
+h1{
+    color: white;
+    text-align: center;
+    
+}
+h1::before{
+    content:'\2706';
+    color: orange;
+}
+div{
+   
+   background-color: black;
+   border: 1px solid black;
+   width: 30vw;
+  
+    padding: 10px 5px;
+    margin-bottom: 20px;
+    font-size: 1.5rem;
+    color: white;
+    position: sticky;
+    top: 0px;
+
+}
+li{
+    background-color: grey;
+    list-style: none;
+    color: white;
+    border-radius: 5px;
+    border: 1px solid black;
+    padding: 10px 5px ;
+    margin-bottom: 20px;
+    width: 20vw;
+    
+
+}
+ul li::before{
+    content: '\260E';
+    color: white;
+}
+body{
+    background-color: grey;
+}
